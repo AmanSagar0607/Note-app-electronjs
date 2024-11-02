@@ -1,0 +1,33 @@
+{
+  "name": "electron-notes-app",
+  "version": "1.0.0",
+  "description": "A simple note-taking application built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "notes",
+    "desktop-app"
+  ],
+  "author": "Aman Sagar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-reload": "^2.0.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanSagar0607/Note-app-electronjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmanSagar0607/Note-app-electronjs/issues"
+  },
+  "homepage": "https://github.com/AmanSagar0607/Note-app-electronjs#readme"
+}
